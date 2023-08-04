@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Future Spending</h1>
+        <div class="default-input-wrapper">
+            <p>Total Assets</p>
+            <input type="text" id="total-assets" placeholder="Total Assets" value="0">
+            <button id="add-product">Add</button>
+            <button id="submit">Submit</button>
+            <button id="clear-button">Clear</button>
+            <select id="currencies" name="currencies">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="GBP">GBP</option>
+                <option value="CNY">CNY</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="NZD">HKD</option>
+                <option value="SGD">SGD</option>
+                <option value="SEK">SEK</option>
+                <option value="KRW">KRW</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="INR">INR</option>
+            </select>
+        </div>
+        <div id="price-area">
+            <div id="product-row" class="div-input"> 
+                <p class="number-index">1. </p>
+                <input type="text" id="product-name" placeholder="Product Name" class="product-name-input">
+                <input type="text" id="product-price" placeholder="Price" class="price-input">
+            </div>
+        </div>
+        <p id="remaining-assets"></p>
+    </div>
+    
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>

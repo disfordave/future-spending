@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+#price-area {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div-input {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+input {
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.default-input-wrapper {
+    display: flex;
+    gap: 1rem;
+    
+    align-items: center;
+}
+
+.default-input-wrapper > p {
+    margin: 0;
+}
+
+#remaining-assets {
+    margin: 0;
+}
