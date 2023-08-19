@@ -10,21 +10,6 @@ document.getElementById("total-assets").addEventListener("click", function() {
     }
 });
 
-// document.getElementById("clear-button").addEventListener("click", function() {
-//         // for (i=0; i < howManyProductList; i++) {
-//         //     document.getElementsByClassName("price-input")[i].value = "";
-//         //     document.getElementsByClassName("product-name-input")[i].value = "";
-//         // }
-
-//         for (i = howManyProductList; i > 1; i--) {
-//             document.getElementsByClassName("price-input")[i].remove();
-//             document.getElementsByClassName("product-name-input")[i].remove();
-//             document.getElementsByClassName("number-index")[i].remove();
-//         }
-//         document.getElementById("total-assets").value = 0;
-//         howManyProductList = 1;
-// });
-
 document.getElementById("clear-button").addEventListener("click", function() {
     for (i = howManyProductList - 1; i > 0; i--) { // Start from howManyProductList - 1 and go to 1
         document.getElementsByClassName("div-input")[i].remove(); // Remove the entire div containing product name, price, and number

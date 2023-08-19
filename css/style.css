@@ -1,5 +1,12 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #202020;
+}
+
 body {
     font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 #price-area {
@@ -24,6 +31,8 @@ input {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .default-input-wrapper {
@@ -44,4 +53,11 @@ input {
 button {
     width: 60px;
     height: 25px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #202020;
+        --text-color: #ffffff;
+    }
 }
