@@ -24,7 +24,7 @@ body {
 input {
     padding: 0.4rem;
     border-radius: 1rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid var(--text-color);
 }
 
 .wrapper {
